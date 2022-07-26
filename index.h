@@ -4,7 +4,7 @@ const char MAIN_page[] PROGMEM = R"=====(
 <html>
 <body>
 <style>
-.baslik1
+.title1
 {
   font-family:Georgia;
   font-size:60px;
@@ -12,7 +12,7 @@ const char MAIN_page[] PROGMEM = R"=====(
   top: 200px;
   left: calc(50% - 95px);
 }
-.baslik2
+.title2
 {
   font-family:Georgia;
   font-size:60px;
@@ -44,7 +44,7 @@ const char MAIN_page[] PROGMEM = R"=====(
     background-color: #d50c0c;
     color: white;
 }
-.komut
+.command
 {
   font-family:Georgia ;
   font-size:40px;
@@ -52,7 +52,7 @@ const char MAIN_page[] PROGMEM = R"=====(
   top: 180px;
   left: calc(50% - 65px);
 }
-.bilgi
+.information
 {
   font-family:Georgia ;
   font-size:40px;
@@ -99,18 +99,18 @@ body
 
 <div id="demo">
 
-<h1 class="baslik1">TelkAS</h1>
-<h2 class="baslik2">KEPENK</h2>
+<h1 class="title1">TelkAS</h1>
+<h2 class="title2">KEPENK</h2>
   <button class="btn button1" onclick="sendData(1)">Ac</button><br/>
   <button class="btn button1" onclick="sendData(2)">Durdur</button><br/>
   <button class="btn button1" onclick="sendData(0)">Kapat</button><BR>
 
 </div>
 
-<div class="komut">
+<div class="command">
   <span id="LEDState">Bekliyor</span> <br>
 </div>
-<div class="bilgi">AS DEMIR OTOMASYON</div>
+<div class="information">AS DEMIR OTOMASYON</div>
 <div class="link">
   <a href="http://kepenkmerkezi.com/"target="_blank">www.kepenkmerkezi.com</a>
 </div>
